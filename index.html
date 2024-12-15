@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feloniuk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rosario:ital,wght@0,300..700;1,300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rosario:ital,wght@0,300..700;1,300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header max_width-big flex">
+            <div class="header_img-search flex">
+                <div class="header_img"><img src="image/header-logo 1.png" alt=""></div>
+                <div class="header_search flex">
+                   <a href=""> <div class="services_search">Послуги</div></a>
+                    <a href=""><div class="about-us_search">Про нас</div></a>
+                    <div class="reviews_search">Відгуки</div>
+                   <a href="contacts/index.html"> <div class="contacts_search">Контакти</div></a>
+                </div>
+                
+            </div>
+            <div class="header_contact flex">
+                <div class="border"><img src="image/Path (Stroke).svg" alt=""></div>
+                <div class="border">En</div>
+                <div class="border">+38 (098) 33-77-4-77</div>
+                <div class="border">Записатися на прийом <img src="image/Group.png" alt=""></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="foto max_width-big flex">
+            <div class="foto_text flex">
+                <h1><span>Стоматологія приємних емоцій.</span></h1>
+                <p>Досвідчена команда FeloniuK Clinic проводить лікування та профілактику усіх проблем щелепно-лицевої
+                    ділянки</p>
+                <div class="border foto_text-button">Записатися на прийом <img src="image/Group.png" alt=""></div>
+            </div>
+        </div>
+        <div class="help max_width-big flex">
+            <h2 class="title_h2">Чим ми можемо Вам допомогти?</h2>
+            <div class="help_type">
+                <div class="border help_type-card">
+                    <h4><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Болить зуб</a></h4>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header flex-but">
+                                    <div class="flex_col">
+                                        <h5 class="modal-title" id="exampleModalLabel">Уточніть, будь ласка, коли саме
+                                            болить</h5>
+                                        <p>Це потрібно для того, щоб ми відкрили для вас відповідні послуги</p>
+                                    </div>
+                                    <div><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button></div>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form_disp" action="#">
+                                        <label class="bord_ots"><input class="padd" name="tooth" type="radio">Після
+                                            солодкого та холодного</label>
+                                        <label class="bord_ots"><input class="padd" name="tooth"
+                                                type="radio">Самостійно, часто наніч</label>
+                                        <label class="bord_ots"><input class="padd" name="tooth" type="radio">Самостійно
+                                            та при накусуванні</label>
+                                    </form>
+                                </div>
+                                <div class="modal-footer but-flex">
+                                    <button type="button" class="btn btn-secondary button-white"
+                                        data-bs-dismiss="modal">Пропустити</button>
+                                    <button type="button" class="btn btn-primary button-black">Далі</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Лікування карієсу та кореневих каналів</p>
+                </div>
+                <div class="border help_type-card">
+                    <h4>Зруйнувався зуб</h4>
+                    <p>Відновлення зубу та коронки</p>
+                </div>
+                <div class="border help_type-card">
+                    <h4>Кровоточать ясна</h4>
+                    <p>Лікування ясен. Професійна гігієна</p>
+                </div>
+                <div class="border help_type-card">
+                    <h4>Відсутній зуб</h4>
+                    <p>Імплантація</p>
+                </div>
+                <div class="border help_type-card">
+                    <h4>Голівудська посмішка</h4>
+                    <p>Встановлення вінірів та відбілювання</p>
+                </div>
+                <div class="border help_type-card">
+                    <h4>Вирівнювання зубів</h4>
+                    <p>Брекети та елайнери</p>
+                </div>
+                <div class="border help_type-card">
+                    <h4>Не знайшли свою проблему?</h4>
+                    <p>Запишіться на консультацію</p>
+                </div>
+            </div>
+        </div>
+        <div class="accord max_width-big">
+            <h2 class="title_h2">Найчастіше цікавляться...</h2>
+            <div class="accordion max_width-big" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header flex" id="headingOne">
+                        <div class="number">01</div>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Імплантація
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Імплантація зуба</strong> - це хірургічне втручання, що передбачає впровадження в
+                            кісткову тканину щелепи штучного імплантату на місце втраченого кореня зуба. Він забезпечує
+                            надійну фіксацію коронки або моста. При цьому немає додаткового навантаження на сусідні
+                            зуби, що продовжує їхнє життя.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header flex" id="headingTwo">
+                        <div class="number">02</div>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Вініри
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Вініри</strong> — фарфорові або керамічні накладки, що замінюють зовнішній шар
+                            зубів. Вони дозволяють коригувати порушення форми та кольору зуба, а також захищають зуби
+                            (наприклад, при грі на духових інструментах).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header flex" id="headingThree">
+                        <div class="number">03</div>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Відбілювання
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Відбілювання зубів</strong> – це процедура в естетичній стоматології, спрямована на
+                            покращення зовнішнього вигляду зубів. Вона включає використання відбілюючих агентів, за
+                            допомогою яких видаляються плями та знебарвлюється емаль. Це дозволяє зробити зуби
+                            яскравішими і білішими.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header flex" id="headingFour">
+                        <div class="number">04</div>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Брекети та елайнери
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Брекети</strong> - кращі у важких ортодонтичних випадках, пов'язаних зі значним
+                            зміщенням зубів або складними проблемами прикусу. <strong>Елайнери</strong> - ефективні в
+                            менш складних випадках, коли зубний ряд потребує некритичної корекції.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="record max_width-big flex">
+            <div class="record_image">
+                <p>Ще не впевнені у своєму виборі?</p>
+                <div>
+                    <img src="image/Rectangle 14.png" alt="">
+                </div>
+            </div>
+            <div class="record_text">
+                <h2 class="title_h2">Запишіться на
+                    консультацію</h2>
+                <button class="button-black">Записатися<img src="image/group-white.png" alt=""></button>
+            </div>
+        </div>
+        <div class="doctor max_width-big">
+            <h2 class="title_h2">Лікарі кліники</h2>
+            <div class="doctor_shell flex">
+                <div class="doctor_card flex">
+                    <img src="image/Rectangle 3.png" alt="">
+                    <h4>Роман Фелонюк</h4>
+                    <p>Засновник, головний лікар</p>
+                </div>
+                <div class="doctor_card flex">
+                    <img src="image/Rectangle 3 (1).png" alt="">
+                    <h4>Віталій</h4>
+                    <p>Лікар-ендодонтист</p>
+                </div>
+                <div class="doctor_card flex">
+                    <img src="image/Rectangle 3.png" alt="">
+                    <h4>Роман Фелонюк</h4>
+                    <p>Засновник, головний лікар</p>
+                </div>
+                <div class="doctor_card flex">
+                    <img src="image/Rectangle 3 (1).png" alt="">
+                    <h4>Віталій</h4>
+                    <p>Лікар-ендодонтист</p>
+                </div>
+                <div class="doctor_card flex">
+                    <img src="image/Rectangle 3.png" alt="">
+                    <h4>Роман Фелонюк</h4>
+                    <p>Засновник, головний лікар</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid_foto max_width-big flex">
+            <div class="first-row">
+
+                <div class="grid_foto-clinic">
+                    <img src="image/grid-foto-clinic/Rectangle 6.png" alt="">
+                </div>
+                <div class="grid_foto-clinic">
+                    <img src="image/grid-foto-clinic/Rectangle 8.png" alt="">
+                </div>
+                <div class="grid_foto-clinic">
+                    <img src="image/grid-foto-clinic/Rectangle 7.png" alt="">
+                </div>
+                <div class="grid_foto-clinic">
+                    <img src="image/grid-foto-clinic/Rectangle 9.png" alt="">
+                </div>
+            </div>
+            <div class="second-row">
+
+                <div class="grid_foto-clinic">
+                    <img src="image/grid-foto-clinic/Rectangle 3 (2).png" alt="">
+                </div>
+                <div class="grid_foto-clinic">
+                    <img src="image/grid-foto-clinic/Rectangle 4.png" alt="">
+                </div>
+                <div class="grid_foto-clinic">
+                    <img src="image/grid-foto-clinic/Rectangle 5.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about max_width-big">
+            <p><strong>Про нас</strong></p>
+            <h2 class="title_h2"> Стоматологія, що дарує приємні емоціі, а якість — як аксіома</h2>
+            <p>Досвідчена команда FeloniuK Clinic проводить лікування та профілактику усіх проблем щелепно-лицевої
+                ділянки. Сучасно орієнтований підхід, багатопрофільний аналіз та найновіше обладнання дозволяє
+                реалізувати європейські протоколи із якісним довготривалим прогнозом.</p>
+            <button class="border">Детальніше про нас</button>
+        </div>
+        <div class="emotions-shell max_width-big">
+            <h2 class="title_h2">Емоції людей, які скористалися нашими послугами</h2>
+            <div class="emotions flex">
+                <div class="emotions-foto"><img src="image/emotions/Rectangle 3 (2).png" alt="">
+                    <p>@muzika_vira</p>
+                </div>
+                <div class="emotions-foto"><img src="image/emotions/Rectangle 3 (3).png" alt="">
+                    <p>@julylazareva</p>
+                </div>
+                <div class="emotions-foto"><img src="image/emotions/Rectangle 3 (4).png" alt="">
+                    <p>@galina_yatsina</p>
+                </div>
+                <div class="emotions-foto"><img src="image/emotions/Rectangle 3 (5).png" alt="">
+                    <p>@anastasia_datsula</p>
+                </div>
+                <div class="emotions-foto"><img src="image/emotions/Rectangle 3 (6).png" alt="">
+                    <p>@daria_lazarieva</p>
+                </div>
+                <div class="emotions-foto"><img src="image/emotions/Rectangle 3 (7).png" alt="">
+                    <p>@nicole_lucky</p>
+                </div>
+            </div>
+        </div>
+        <div class="inst max_width-big">
+            <h2 class="title_h2">Наш Instagram —<a href="https://www.instagram.com/feloniukclinic/"
+                    target="_blank">@feloniukclinic</a>
+            </h2>
+            <div class="inst_foto flex">
+                <div><img src="image/inst/instagram photo.png" alt=""></img></div>
+                <div><img src="image/inst/Rectangle 3 (2).png" alt=""></img></div>
+                <div><img src="image/inst/Rectangle 3 (5).png" alt=""></img></div>
+                <div><img src="image/inst/Rectangle 3 (3).png" alt=""></img></div>
+                <div><img src="image/inst/Rectangle 3 (4).png" alt=""></img></div>
+                <div><img src="image/inst/Rectangle 3 (5).png" alt=""></img></div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer_header">
+            <div class="record max_width-big flex">
+                <div class="record_image">
+                    <p>Ще не впевнені у своєму виборі?</p>
+                    <div>
+                        <img src="image/Rectangle 14.png" alt="">
+                    </div>
+                </div>
+                <div class="record_text">
+                    <h2>Запишіться на
+                        консультацію</h2>
+                    <button class="button-black">Записатися<img src="image/group-white.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer_main max_width-big flex">
+            <div class="footer_main-left">
+                <h2>Завітайте до нас.</h2>
+                <div class="left-shell">
+                    <div class="left-contact">
+                        <h3>Контакти</h3>
+                        <p>+38 (098) 33-77-4-77</p>
+                    </div>
+                    <div class="left-time">
+                        <h3>Часи роботи</h3>
+                        <p>Пн – Пт: 9:00 – 20:00</p>
+                        <p>Сб – Нд: 10:00 – 18:00</p>
+                    </div>
+                    <div class="left-address">
+                        <h3>Адреса</h3>
+                        <p>м. Хмельницький,<br>
+                            вул. Зарічанська, 11е</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_main-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75173.18617177467!2d26.912857678436723!3d49.41063436712401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4732064344bb178b%3A0xd9f30b3b24d9c964!2z0KXQvNC10LvRjNC90LjRhtC60LjQuSwg0KXQvNC10LvRjNC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDI5MDAw!5e1!3m2!1sru!2scz!4v1733342576108!5m2!1sru!2scz"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer_footer flex max_width-big">
+            <div class="footer_logo">
+                <div class="footer_logo-img">
+                    <img src="image/g12.png" alt="">
+                </div>
+                <div class="footer_logo-social">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <div class="logo-social-element">
+                            <img src="image/icon/instagram (2).svg" alt="" width="18" height="18">
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <div class="logo-social-element">
+                            <img src="image/icon/facebook.svg" alt="" width="18" height="18">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="section-title">Розділи</h3>
+                <ul class="section-list flex">
+                    <li>Про нас</li>
+                    <li>Послуги</li>
+                    <li>Відгуки</li>
+                    <li>Контакти</li>
+                    <li>Блог</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3 class="services-title">Послуги</h3>
+                <ul class="services-list flex">
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                    <li>Імплантація</li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
