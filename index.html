@@ -23,21 +23,37 @@
 <body>
     <header>
         <div class="header max_width-big flex">
-            <div class="header_img-search flex">
-                <div class="header_img"><img src="image/header-logo 1.png" alt=""></div>
-                <div class="header_search flex">
-                   <a href=""> <div class="services_search">Послуги</div></a>
-                    <a href=""><div class="about-us_search">Про нас</div></a>
-                    <div class="reviews_search">Відгуки</div>
-                   <a href="contacts/index.html"> <div class="contacts_search">Контакти</div></a>
+            <div class="header_img-search ">
+                <div class="img_burg"><a href="/index.html"><img class="header_img" src="image/header-logo 1.png" alt=""></a></div>
+                <div class="header_search flex non">
+                    <a href="/services/index.html">
+                        <div class="services_search search-s">Послуги</div>
+                    </a>
+                    <a href="/about us/index.html">
+                        <div class="about-us_search search-s">Про нас</div>
+                    </a>
+                    <a href="#emotions">
+                        <div class="reviews_search search-s">Відгуки</div>
+                    </a>
+                    <a href="contacts/index.html">
+                        <div class="contacts_search search-s">Контакти</div>
+                    </a>
                 </div>
-                
+
             </div>
-            <div class="header_contact flex">
+            <div class="header_contact non">
                 <div class="border"><img src="image/Path (Stroke).svg" alt=""></div>
-                <div class="border">En</div>
-                <div class="border">+38 (098) 33-77-4-77</div>
-                <div class="border">Записатися на прийом <img src="image/Group.png" alt=""></div>
+                <div class="border foto_text-button"><a href="#">En</a></div>
+                <div class="border foto_text-button"><a href="#">+38 (098) 33-77-4-77</a></div>
+                <div class="border foto_text-button"><a href="#">Записатися на прийом<img src="image/Group.png" alt=""></a></div>
+            </div>
+            <div class="tell_my">
+                <button class="border call-button">
+                    <a href="tel:+380983377477">Позвонити</a>
+                </button>
+            </div>
+            <div class="burger">
+                <span></span>
             </div>
         </div>
     </header>
@@ -47,7 +63,8 @@
                 <h1><span>Стоматологія приємних емоцій.</span></h1>
                 <p>Досвідчена команда FeloniuK Clinic проводить лікування та профілактику усіх проблем щелепно-лицевої
                     ділянки</p>
-                <div class="border foto_text-button">Записатися на прийом <img src="image/Group.png" alt=""></div>
+                <div class="border foto_text-button"><a href="#">Записатися на прийом<img src="image/Group.png"
+                            alt=""></a></div>
             </div>
         </div>
         <div class="help max_width-big flex">
@@ -207,16 +224,150 @@
         <div class="doctor max_width-big">
             <h2 class="title_h2">Лікарі кліники</h2>
             <div class="doctor_shell flex">
-                <div class="doctor_card flex">
-                    <img src="image/Rectangle 3.png" alt="">
-                    <h4>Роман Фелонюк</h4>
-                    <p>Засновник, головний лікар</p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#Roman">
+                    <div class="doctor_card flex">
+                        <img src="image/Rectangle 3.png" alt="">
+                        <h4>Роман Фелонюк</h4>
+                        <p>Засновник, головний лікар</p>
+                    </div>
+                </a>
+                <!-- modal on -->
+                <div>
+                    <!-- modal -->
+                    <div class="modal fade" id="Roman" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- header -->
+                                <div class="modal-header flex-but head_shell-mod">
+                                    <div class="imag-modal">
+                                        <img src="/image/modal-card-doctor/Rectangle 3.png" alt="">
+                                    </div>
+                                    <div class="description-modal">
+                                        <h4>Роман Фелонюк</h4>
+                                        <h6 class="border">терапевтичне лікування дорослих та дітей</h6>
+                                        <h6 class="border">ендодонтичне лікування</h6>
+                                        <h6 class="border">робота в медикаментозному сні</h6>
+                                        <h6 class="border">лікування під закисом азоту</h6>
+                                        <p>Роман Фелонюк — засновник і головний лікар який вправно пройде та якісно
+                                            пролікує найскладніший
+                                            кореневий канал. Його фішкою є терапевтичне лікування кіст щелеп та
+                                            кореневих запальних процесів.</p>
+                                        <p>Але найбільше його люблять та цінують наші маленькі пацієнти.
+                                            Лікар легко знаходить спільну мову майже із усіма дітками, за що вони
+                                            дарують йому свою довіру,
+                                            а батькам душевний спокій.</p>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                </div>
+                                <!-- body -->
+                                <div class="modal-body">
+                                    <h5>Портфоліо робіт:</h5>
+                                    <div class="modal_shell-treatment flex">
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. До</p>
+                                        </div>
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. Після</p>
+                                        </div>
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. До</p>
+                                        </div>
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. Після</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- footer -->
+                                <div class="modal-footer but-flex">
+                                    <button type="button" class="btn btn-secondary button-white"
+                                        data-bs-dismiss="modal">Назад</button>
+                                    <div class="look">Записатися на прийом <img src="/services/arrow.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="doctor_card flex">
-                    <img src="image/Rectangle 3 (1).png" alt="">
-                    <h4>Віталій</h4>
-                    <p>Лікар-ендодонтист</p>
+                <!-- modal off -->
+                <a href="" data-bs-toggle="modal" data-bs-target="#Vitaly">
+                    <div class="doctor_card flex">
+                        <img src="image/Rectangle 3 (1).png" alt="">
+                        <h4>Віталій</h4>
+                        <p>Лікар-ендодонтист</p>
+                    </div>
+                </a>
+                <!-- modal on -->
+                <div>
+                    <!-- modal -->
+                    <div class="modal fade" id="Vitaly" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- header -->
+                                <div class="modal-header flex-but head_shell-mod">
+                                    <div class="imag-modal">
+                                        <img src="/image/modal-card-doctor/FeloniukSpot_0184 1.png" alt="">
+                                    </div>
+                                    <div class="description-modal">
+                                        <h4>Віталій</h4>
+                                        <h6 class="border">терапевтичне лікування дорослих та дітей</h6>
+                                        <h6 class="border">ендодонтичне лікування</h6>
+                                        <h6 class="border">робота в медикаментозному сні</h6>
+                                        <h6 class="border">лікування під закисом азоту</h6>
+                                        <p>Віталій Володимирович — лікар-віртуоз, який вправно пройде та якісно пролікує
+                                            найскладніший
+                                            кореневий канал. Його фішкою є терапевтичне лікування кіст щелеп та
+                                            кореневих запальних процесів.</p>
+                                        <p>Але найбільше його люблять та цінують наші маленькі пацієнти.
+                                            Лікар легко знаходить спільну мову майже із усіма дітками, за що вони
+                                            дарують йому свою довіру,
+                                            а батькам душевний спокій.</p>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                </div>
+                                <!-- body -->
+                                <div class="modal-body">
+                                    <h5>Портфоліо робіт:</h5>
+                                    <div class="modal_shell-treatment flex">
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. До</p>
+                                        </div>
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. Після</p>
+                                        </div>
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. До</p>
+                                        </div>
+                                        <div class="treatment-card">
+                                            <img src="/image/modal-treatment/Rectangle 18.png" alt="">
+                                            <p>Лікування “назва процедури”. Після</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- footer -->
+                                <div class="modal-footer but-flex">
+                                    <button type="button" class="btn btn-secondary button-white"
+                                        data-bs-dismiss="modal">Назад</button>
+                                    <div class="look">Записатися на прийом <img src="/services/arrow.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- modal off -->
                 <div class="doctor_card flex">
                     <img src="image/Rectangle 3.png" alt="">
                     <h4>Роман Фелонюк</h4>
@@ -234,32 +385,30 @@
                 </div>
             </div>
         </div>
-        <div class="grid_foto max_width-big flex">
+        <div class="hospital_foto max_width-big flex">
             <div class="first-row">
-
-                <div class="grid_foto-clinic">
-                    <img src="image/grid-foto-clinic/Rectangle 6.png" alt="">
+                <div class="hospital_foto-clinic">
+                    <img src="image/hospital-foto-clinic/Rectangle 6.png" alt="">
                 </div>
-                <div class="grid_foto-clinic">
-                    <img src="image/grid-foto-clinic/Rectangle 8.png" alt="">
+                <div class="hospital_foto-clinic">
+                    <img src="image/hospital-foto-clinic/Rectangle 8.png" alt="">
                 </div>
-                <div class="grid_foto-clinic">
-                    <img src="image/grid-foto-clinic/Rectangle 7.png" alt="">
+                <div class="hospital_foto-clinic">
+                    <img src="image/hospital-foto-clinic/Rectangle 7.png" alt="">
                 </div>
-                <div class="grid_foto-clinic">
-                    <img src="image/grid-foto-clinic/Rectangle 9.png" alt="">
+                <div class="hospital_foto-clinic">
+                    <img src="image/hospital-foto-clinic/Rectangle 9.png" alt="">
                 </div>
             </div>
             <div class="second-row">
-
-                <div class="grid_foto-clinic">
-                    <img src="image/grid-foto-clinic/Rectangle 3 (2).png" alt="">
+                <div class="hospital_foto-clinic">
+                    <img src="image/hospital-foto-clinic/Rectangle 3 (2).png" alt="">
                 </div>
-                <div class="grid_foto-clinic">
-                    <img src="image/grid-foto-clinic/Rectangle 4.png" alt="">
+                <div class="hospital_foto-clinic">
+                    <img src="image/hospital-foto-clinic/Rectangle 4.png" alt="">
                 </div>
-                <div class="grid_foto-clinic">
-                    <img src="image/grid-foto-clinic/Rectangle 5.png" alt="">
+                <div class="hospital_foto-clinic">
+                    <img src="image/hospital-foto-clinic/Rectangle 5.png" alt="">
                 </div>
             </div>
         </div>
@@ -271,7 +420,7 @@
                 реалізувати європейські протоколи із якісним довготривалим прогнозом.</p>
             <button class="border">Детальніше про нас</button>
         </div>
-        <div class="emotions-shell max_width-big">
+        <div class="emotions-shell max_width-big" id="emotions">
             <h2 class="title_h2">Емоції людей, які скористалися нашими послугами</h2>
             <div class="emotions flex">
                 <div class="emotions-foto"><img src="image/emotions/Rectangle 3 (2).png" alt="">
@@ -308,7 +457,7 @@
             </div>
     </main>
     <footer>
-        <div class="footer_header">
+        <div class="footer_header max_width-big">
             <div class="record max_width-big flex">
                 <div class="record_image">
                     <p>Ще не впевнені у своєму виборі?</p>
@@ -317,7 +466,7 @@
                     </div>
                 </div>
                 <div class="record_text">
-                    <h2>Запишіться на
+                    <h2 class="title_h2">Запишіться на
                         консультацію</h2>
                     <button class="button-black">Записатися<img src="image/group-white.png" alt=""></button>
                 </div>
@@ -340,6 +489,11 @@
                         <h3>Адреса</h3>
                         <p>м. Хмельницький,<br>
                             вул. Зарічанська, 11е</p>
+                    </div>
+                    <div class="but-smoll">
+                        <button class="map-button border">
+                            <a href="https://www.google.com/maps?q=49.434676, 26.989073" target="_blank">Дивитись в Google Maps<img src="image/Group.png" alt=""></a>
+                          </button>
                     </div>
                 </div>
             </div>
@@ -367,48 +521,133 @@
                     </a>
                 </div>
             </div>
-            <div class="footer-section">
-                <h3 class="section-title">Розділи</h3>
-                <ul class="section-list flex">
-                    <li>Про нас</li>
-                    <li>Послуги</li>
-                    <li>Відгуки</li>
-                    <li>Контакти</li>
-                    <li>Блог</li>
-                    <li>FAQ</li>
-                </ul>
-            </div>
-            <div class="footer-services">
-                <h3 class="services-title">Послуги</h3>
-                <ul class="services-list flex">
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                    <li>Імплантація</li>
-                </ul>
+            <div class="footer_shell">
+                <div class="shell">
+                    <div class="footer-section">
+                        <h3 class="w">Розділи</h3>
+                        <ul class="section-list ">
+                            <a href="/about us/index.html"><li>Про нас</li></a>
+                            <a href="/services/index.html"><li>Послуги</li></a>
+                            <a href="#emotions"><li>Відгуки</li></a>
+                            <a href="contacts/index.html"><li>Контакти</li></a>
+                            <a href="/blog/index.html"><li>Блог</li></a>
+                            <a href="/FAQ/index.html"><li>FAQ</li></a>
+                        </ul>
+                    </div>
+                    <details class="list_small">
+                        <summary>Розділи</summary>
+                        <ul class="section-list ">
+                            <a href="/about us/index.html">
+                                <li>Про нас</li>
+                            </a>
+                            <a href="/services/index.html">
+                                <li>Послуги</li>
+                            </a>
+                            <a href="#emotions">
+                                <li>Відгуки</li>
+                            </a>
+                            <a href="contacts/index.html">
+                                <li>Контакти</li>
+                            </a>
+                            <a href="/blog/index.html">
+                                <li>Блог</li>
+                            </a>
+                            <a href="/FAQ/index.html">
+                                <li>FAQ</li>
+                            </a>
+                        </ul>
+                    </details>
+                    <div class="footer-services">
+                        <h3 class="s-title w">Послуги</h3>
+                        <ul class="services-list ">
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                        </ul>
+                    </div>
+                    <details class="list_small">
+                        <summary>Послуги</summary>
+                        <ul class="services-list ">
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                            <li>Імплантація</li>
+                        </ul>
+                    </details>
+                </div>
             </div>
 
         </div>
+        <div class="footer_info max_width-big flex">
+            <div class="footer_info-left">
+                <p>2022 FeloniuK clinic. Ліцензія МОЗ України N2044 від 11.12.2017</p>
+            </div>
+            <div class="footer_info-right flex">
+                <a href="/Privacy policy/index.html">
+                    <p>Політика конфіденційності</p>
+                </a>
+                <a href="/Offer contract/index.html">
+                    <p>Договір оферти</p>
+                </a>
+            </div>
+        </div>
+        <div class="footer_logo-small max_width-big">
+            <div class="footer_logo-img">
+                <img src="image/g12.png" alt="">
+            </div>
+            <a href="https://www.instagram.com/" target="_blank">
+                <div class="logo-social-element">
+                    <img src="image/icon/instagram (2).svg" alt="" width="18" height="18">
+                </div>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <div class="logo-social-element">
+                    <img src="image/icon/facebook.svg" alt="" width="18" height="18">
+                </div>
+            </a>
+            <div class="border logo-social-element"><img src="image/Path (Stroke).svg" alt=""></div>
+            <div class="border logo-social-element">En</div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.querySelector('.non').classList.toggle('open')
+        })
+    </script>
 </body>
 
 </html>
